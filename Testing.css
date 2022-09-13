@@ -182,13 +182,6 @@ textarea {
     margin-bottom: 10px;
 }
 
-rect.pointerEvents-9SZWKj {
-    x: 22 !important;
-    y: 1 !important;
-    height: 10px;
-    width: 10px;
-}
-
 .containerDefault-YUSmu3 rect.pointerEvents-9SZWKj {
     x: 13 !important;
     y: 0 !important;
@@ -530,9 +523,28 @@ code {
     font-family: var(--code-font);
 }
 
+.avatar-6qzftW,
+.wrapper-1VLyxH,
+.avatar-2Vndt_,
+.wrapper-1VLyxH,
+.avatar-b5OQ1N,
+.avatar-2e8lTP,
+.avatar-3FKimL {
+    border-radius: 38%;
+}
+
 .replyBar-1oi75v,
 .clipContainer-31nYlH {
     background: var(--background-primary);
+}
+
+.avatarHint-k7pYop foreignObject {
+    mask: unset;
+    border-radius: 35% !important;
+}
+
+.avatarHintInner-2HUAWj {
+    border-radius: 35% !important;
 }
 
 .imageWrapper-oMkQl4 {
